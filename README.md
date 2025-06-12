@@ -56,8 +56,8 @@ password-vault-ai/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-user/password-vault-ai.git
-cd password-vault-ai
+git clone https://github.com/Aetos973/AI-Powered-Password-Manager.git
+cd AI-Powered-Password-Manager
 ````
 
 ### 2. Create virtual environment & install requirements
