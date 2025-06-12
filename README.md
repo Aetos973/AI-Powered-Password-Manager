@@ -1,7 +1,3 @@
-Absolutely! Below is a clean, detailed, and developer-friendly `README.md` for your **AI-Powered Password Manager** built with **Python**, **PostgreSQL**, and **Offline AI** tools.
-
----
-
 # 🔐 AI-Powered Password Manager (Offline-First)
 
 Secure. Smart. Private.  
