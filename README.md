@@ -36,16 +36,24 @@ A developer-grade password manager with AI-assisted password generation, strengt
 
 ```
 
-password-vault-ai/
-├── cli/                 # CLI tools and entrypoints
-├── web/                 # Optional FastAPI interface
-├── llm\_tools/           # LLM-based password suggestions
-├── data/                # User vaults, logs, model data
-├── models/              # Offline .gguf models for LLMs
-├── config.env           # Environment variables
+AI-Powered-Password-Manager/
+├── cli/                   # CLI tools and command-line interface
+├── web/                   # Optional FastAPI interface (if needed)
+├── db/                    # SQL scripts, seed data, and migrations
+├── ml/                    # ML model training + evaluation scripts
+│   ├── model.pkl          # Trained password strength classifier
+│   └── train_model.py
+├── models/                # Offline LLMs (.gguf or quantized models)
+├── llm_tools/             # LLM-powered password generators, formatters
+├── prompts/               # Prompt templates + logs for password AI
+│   ├── generation.md
+│   ├── critique-tests.md
+│   └── README.md
+├── data/                  # Encrypted vault data, logs, or exports
+├── config.env             # Local env vars
 ├── requirements.txt
-├── README.md
-└── changelog.md
+├── changelog.md
+└── README.md
 
 ````
 
