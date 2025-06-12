@@ -1,0 +1,43 @@
+# Core Dependencies
+bcrypt==4.0.1
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.30
+python-dotenv==1.0.1
+pydantic==2.7.1
+cryptography==42.0.5
+
+# CLI Interface
+rich==13.7.1
+typer==0.12.3
+
+# ML for Password Strength Analysis
+scikit-learn==1.4.2
+joblib==1.4.2
+numpy==1.26.4
+pandas==2.2.2
+
+# Fast Local LLMs (Optional)
+llama-cpp-python==0.2.64         # Run quantized LLaMA/Alpaca models
+ctransformers==0.2.27            # Lightweight wrapper for GGML/GGUF model support (GPT-J, Falcon, etc.)
+
+# Optional Offline LLM Embeddings (Text similarity, password suggestion)
+sentence-transformers==2.7.0
+onnxruntime==1.17.3              # For optimized offline model inference
+tokenizers==0.19.1
+
+# Pure Offline Substitutes (No transformers or torch)
+password-strength==0.0.3         # Lightweight password entropy checker
+zxcvbn==4.4.28                   # Dropbox’s password strength estimator (local)
+
+# Optional FastAPI Web UI (Offline Mode)
+fastapi==0.111.0
+uvicorn==0.30.1
+
+# File Export / Backup
+openpyxl==3.1.2
+python-multipart==0.0.9
+
+# Developer Tools (Offline)
+black==24.4.2
+isort==5.13.2
+pre-commit==3.7.1
