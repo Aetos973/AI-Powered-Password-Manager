@@ -49,7 +49,7 @@ python ml/training/train_model.py
 This will:
 
 * Load and preprocess data
-* Train a `LogisticRegression` classifier
+* Train an `XGBoost` classifier
 * Save the model to `ml/models/password_strength.pkl`
 * Log accuracy, precision, recall, F1 to `training_log.md`
 
